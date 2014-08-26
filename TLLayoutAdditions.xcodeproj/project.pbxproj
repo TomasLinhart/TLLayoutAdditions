@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696C11B6736AFD79B22F93A2 /* UIView+MyConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1AD68488086E90D48EC3 /* UIView+MyConstraints.m */; };
+		696C15F9E0BB81B3BE44A02C /* UIView+Edges.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C14A9933337BC1B2E5C3A /* UIView+Edges.m */; };
+		696C15FC606A0DA72B5BD5D3 /* UIView+VisualConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1CF80CCDE4AFEF4C10FC /* UIView+VisualConstraints.m */; };
+		696C1755E9369FEF3CF6BCF3 /* UIView+Resistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1869E02054B6D77E1350 /* UIView+Resistance.m */; };
+		696C175A3821EC6AC80BE026 /* UIView+Centering.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C14AAC2C5AD0FC5480D1F /* UIView+Centering.m */; };
+		696C17FBAE808E230EB3A525 /* UIView+Spacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C114ED7E38C0F30F13036 /* UIView+Spacing.m */; };
+		696C18505787EE9742679DC2 /* NSLayoutConstraint+RegularConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C102DACC01F190E6CC041 /* NSLayoutConstraint+RegularConvenience.m */; };
+		696C1C0F10F0FF8B132112A5 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C17BEEBD986D743845B62 /* UIView+Constraints.m */; };
+		696C1C1A10CAC280DC35F2BB /* UIView+Sizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1B7997C54C42C5557EE7 /* UIView+Sizing.m */; };
+		696C1F277BC6404C8A6230AD /* NSLayoutConstraint+VisualConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C14CD05F9113D18DBFB73 /* NSLayoutConstraint+VisualConvenience.m */; };
+		C3044AC219AD403B00265593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044AC119AD403B00265593 /* Foundation.framework */; };
+		C3044AC719AD403B00265593 /* TLLayoutAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3044AC619AD403B00265593 /* TLLayoutAdditions.h */; };
+		C3044AC919AD403B00265593 /* TLLayoutAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C3044AC819AD403B00265593 /* TLLayoutAdditions.m */; };
+		C3044AD019AD403B00265593 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044ACF19AD403B00265593 /* XCTest.framework */; };
+		C3044AD119AD403B00265593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044AC119AD403B00265593 /* Foundation.framework */; };
+		C3044AD319AD403B00265593 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044AD219AD403B00265593 /* UIKit.framework */; };
+		C3044AD619AD403B00265593 /* libTLLayoutAdditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044ABE19AD403B00265593 /* libTLLayoutAdditions.a */; };
+		C3044ADC19AD403B00265593 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3044ADA19AD403B00265593 /* InfoPlist.strings */; };
+		C3044ADE19AD403B00265593 /* TLLayoutAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3044ADD19AD403B00265593 /* TLLayoutAdditionsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3044AD419AD403B00265593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3044AB619AD403B00265593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3044ABD19AD403B00265593;
+			remoteInfo = TLLayoutAdditions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3044ABC19AD403B00265593 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C3044AC719AD403B00265593 /* TLLayoutAdditions.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		696C102DACC01F190E6CC041 /* NSLayoutConstraint+RegularConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+RegularConvenience.m"; sourceTree = "<group>"; };
+		696C10BF4682E2D20CA8E3F4 /* UIView+Sizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizing.h"; sourceTree = "<group>"; };
+		696C114ED7E38C0F30F13036 /* UIView+Spacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Spacing.m"; sourceTree = "<group>"; };
+		696C118625FF1028FEF5B3D7 /* UIView+Resistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Resistance.h"; sourceTree = "<group>"; };
+		696C14A9933337BC1B2E5C3A /* UIView+Edges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Edges.m"; sourceTree = "<group>"; };
+		696C14AAC2C5AD0FC5480D1F /* UIView+Centering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Centering.m"; sourceTree = "<group>"; };
+		696C14CD05F9113D18DBFB73 /* NSLayoutConstraint+VisualConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+VisualConvenience.m"; sourceTree = "<group>"; };
+		696C150F44345F69093B0BAA /* UIView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraints.h"; sourceTree = "<group>"; };
+		696C17AD3F3BED411810B7B1 /* UIView+Spacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Spacing.h"; sourceTree = "<group>"; };
+		696C17BEEBD986D743845B62 /* UIView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraints.m"; sourceTree = "<group>"; };
+		696C183924A8C3C1417143AF /* NSLayoutConstraint+VisualConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+VisualConvenience.h"; sourceTree = "<group>"; };
+		696C1869E02054B6D77E1350 /* UIView+Resistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Resistance.m"; sourceTree = "<group>"; };
+		696C19BB47977C84464458AF /* UIView+Centering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Centering.h"; sourceTree = "<group>"; };
+		696C1AD68488086E90D48EC3 /* UIView+MyConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MyConstraints.m"; sourceTree = "<group>"; };
+		696C1B7997C54C42C5557EE7 /* UIView+Sizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizing.m"; sourceTree = "<group>"; };
+		696C1C9EAE080BF9C31AF284 /* UIView+Edges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Edges.h"; sourceTree = "<group>"; };
+		696C1CF80CCDE4AFEF4C10FC /* UIView+VisualConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VisualConstraints.m"; sourceTree = "<group>"; };
+		696C1D79658A71A9EC8AF416 /* UIView+VisualConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VisualConstraints.h"; sourceTree = "<group>"; };
+		696C1DC7FE4C1D9DAD148520 /* UIView+MyConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MyConstraints.h"; sourceTree = "<group>"; };
+		696C1EABB427FF3EE15D50BB /* NSLayoutConstraint+RegularConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+RegularConvenience.h"; sourceTree = "<group>"; };
+		C3044ABE19AD403B00265593 /* libTLLayoutAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTLLayoutAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3044AC119AD403B00265593 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3044AC519AD403B00265593 /* TLLayoutAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TLLayoutAdditions-Prefix.pch"; sourceTree = "<group>"; };
+		C3044AC619AD403B00265593 /* TLLayoutAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLLayoutAdditions.h; sourceTree = "<group>"; };
+		C3044AC819AD403B00265593 /* TLLayoutAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLLayoutAdditions.m; sourceTree = "<group>"; };
+		C3044ACE19AD403B00265593 /* TLLayoutAdditionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLLayoutAdditionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3044ACF19AD403B00265593 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3044AD219AD403B00265593 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C3044AD919AD403B00265593 /* TLLayoutAdditionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TLLayoutAdditionsTests-Info.plist"; sourceTree = "<group>"; };
+		C3044ADB19AD403B00265593 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3044ADD19AD403B00265593 /* TLLayoutAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLLayoutAdditionsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3044ABB19AD403B00265593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3044AC219AD403B00265593 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3044ACB19AD403B00265593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3044AD019AD403B00265593 /* XCTest.framework in Frameworks */,
+				C3044AD619AD403B00265593 /* libTLLayoutAdditions.a in Frameworks */,
+				C3044AD319AD403B00265593 /* UIKit.framework in Frameworks */,
+				C3044AD119AD403B00265593 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696C16CAA9039CEF891EA4AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				696C1869E02054B6D77E1350 /* UIView+Resistance.m */,
+				696C118625FF1028FEF5B3D7 /* UIView+Resistance.h */,
+				696C102DACC01F190E6CC041 /* NSLayoutConstraint+RegularConvenience.m */,
+				696C1EABB427FF3EE15D50BB /* NSLayoutConstraint+RegularConvenience.h */,
+				696C14CD05F9113D18DBFB73 /* NSLayoutConstraint+VisualConvenience.m */,
+				696C183924A8C3C1417143AF /* NSLayoutConstraint+VisualConvenience.h */,
+				696C1AD68488086E90D48EC3 /* UIView+MyConstraints.m */,
+				696C1DC7FE4C1D9DAD148520 /* UIView+MyConstraints.h */,
+				696C1CF80CCDE4AFEF4C10FC /* UIView+VisualConstraints.m */,
+				696C1D79658A71A9EC8AF416 /* UIView+VisualConstraints.h */,
+				696C17BEEBD986D743845B62 /* UIView+Constraints.m */,
+				696C150F44345F69093B0BAA /* UIView+Constraints.h */,
+				696C1B7997C54C42C5557EE7 /* UIView+Sizing.m */,
+				696C10BF4682E2D20CA8E3F4 /* UIView+Sizing.h */,
+				696C14AAC2C5AD0FC5480D1F /* UIView+Centering.m */,
+				696C19BB47977C84464458AF /* UIView+Centering.h */,
+				696C114ED7E38C0F30F13036 /* UIView+Spacing.m */,
+				696C17AD3F3BED411810B7B1 /* UIView+Spacing.h */,
+				696C14A9933337BC1B2E5C3A /* UIView+Edges.m */,
+				696C1C9EAE080BF9C31AF284 /* UIView+Edges.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C3044AB519AD403B00265593 = {
+			isa = PBXGroup;
+			children = (
+				C3044AC319AD403B00265593 /* TLLayoutAdditions */,
+				C3044AD719AD403B00265593 /* TLLayoutAdditionsTests */,
+				C3044AC019AD403B00265593 /* Frameworks */,
+				C3044ABF19AD403B00265593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3044ABF19AD403B00265593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3044ABE19AD403B00265593 /* libTLLayoutAdditions.a */,
+				C3044ACE19AD403B00265593 /* TLLayoutAdditionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3044AC019AD403B00265593 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3044AC119AD403B00265593 /* Foundation.framework */,
+				C3044ACF19AD403B00265593 /* XCTest.framework */,
+				C3044AD219AD403B00265593 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3044AC319AD403B00265593 /* TLLayoutAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				C3044AC619AD403B00265593 /* TLLayoutAdditions.h */,
+				C3044AC819AD403B00265593 /* TLLayoutAdditions.m */,
+				C3044AC419AD403B00265593 /* Supporting Files */,
+				696C16CAA9039CEF891EA4AE /* Classes */,
+			);
+			path = TLLayoutAdditions;
+			sourceTree = "<group>";
+		};
+		C3044AC419AD403B00265593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3044AC519AD403B00265593 /* TLLayoutAdditions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3044AD719AD403B00265593 /* TLLayoutAdditionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3044ADD19AD403B00265593 /* TLLayoutAdditionsTests.m */,
+				C3044AD819AD403B00265593 /* Supporting Files */,
+			);
+			path = TLLayoutAdditionsTests;
+			sourceTree = "<group>";
+		};
+		C3044AD819AD403B00265593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3044AD919AD403B00265593 /* TLLayoutAdditionsTests-Info.plist */,
+				C3044ADA19AD403B00265593 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3044ABD19AD403B00265593 /* TLLayoutAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3044AE119AD403B00265593 /* Build configuration list for PBXNativeTarget "TLLayoutAdditions" */;
+			buildPhases = (
+				C3044ABA19AD403B00265593 /* Sources */,
+				C3044ABB19AD403B00265593 /* Frameworks */,
+				C3044ABC19AD403B00265593 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLLayoutAdditions;
+			productName = TLLayoutAdditions;
+			productReference = C3044ABE19AD403B00265593 /* libTLLayoutAdditions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3044ACD19AD403B00265593 /* TLLayoutAdditionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3044AE419AD403B00265593 /* Build configuration list for PBXNativeTarget "TLLayoutAdditionsTests" */;
+			buildPhases = (
+				C3044ACA19AD403B00265593 /* Sources */,
+				C3044ACB19AD403B00265593 /* Frameworks */,
+				C3044ACC19AD403B00265593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3044AD519AD403B00265593 /* PBXTargetDependency */,
+			);
+			name = TLLayoutAdditionsTests;
+			productName = TLLayoutAdditionsTests;
+			productReference = C3044ACE19AD403B00265593 /* TLLayoutAdditionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3044AB619AD403B00265593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tomáš Linhart";
+			};
+			buildConfigurationList = C3044AB919AD403B00265593 /* Build configuration list for PBXProject "TLLayoutAdditions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3044AB519AD403B00265593;
+			productRefGroup = C3044ABF19AD403B00265593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3044ABD19AD403B00265593 /* TLLayoutAdditions */,
+				C3044ACD19AD403B00265593 /* TLLayoutAdditionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3044ACC19AD403B00265593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3044ADC19AD403B00265593 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3044ABA19AD403B00265593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3044AC919AD403B00265593 /* TLLayoutAdditions.m in Sources */,
+				696C1755E9369FEF3CF6BCF3 /* UIView+Resistance.m in Sources */,
+				696C18505787EE9742679DC2 /* NSLayoutConstraint+RegularConvenience.m in Sources */,
+				696C1F277BC6404C8A6230AD /* NSLayoutConstraint+VisualConvenience.m in Sources */,
+				696C11B6736AFD79B22F93A2 /* UIView+MyConstraints.m in Sources */,
+				696C15FC606A0DA72B5BD5D3 /* UIView+VisualConstraints.m in Sources */,
+				696C1C0F10F0FF8B132112A5 /* UIView+Constraints.m in Sources */,
+				696C1C1A10CAC280DC35F2BB /* UIView+Sizing.m in Sources */,
+				696C175A3821EC6AC80BE026 /* UIView+Centering.m in Sources */,
+				696C17FBAE808E230EB3A525 /* UIView+Spacing.m in Sources */,
+				696C15F9E0BB81B3BE44A02C /* UIView+Edges.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3044ACA19AD403B00265593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3044ADE19AD403B00265593 /* TLLayoutAdditionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3044AD519AD403B00265593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3044ABD19AD403B00265593 /* TLLayoutAdditions */;
+			targetProxy = C3044AD419AD403B00265593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3044ADA19AD403B00265593 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3044ADB19AD403B00265593 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3044ADF19AD403B00265593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3044AE019AD403B00265593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3044AE219AD403B00265593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TLLayoutAdditions.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TLLayoutAdditions/TLLayoutAdditions-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C3044AE319AD403B00265593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TLLayoutAdditions.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TLLayoutAdditions/TLLayoutAdditions-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C3044AE519AD403B00265593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TLLayoutAdditions/TLLayoutAdditions-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TLLayoutAdditionsTests/TLLayoutAdditionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3044AE619AD403B00265593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TLLayoutAdditions/TLLayoutAdditions-Prefix.pch";
+				INFOPLIST_FILE = "TLLayoutAdditionsTests/TLLayoutAdditionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3044AB919AD403B00265593 /* Build configuration list for PBXProject "TLLayoutAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3044ADF19AD403B00265593 /* Debug */,
+				C3044AE019AD403B00265593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3044AE119AD403B00265593 /* Build configuration list for PBXNativeTarget "TLLayoutAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3044AE219AD403B00265593 /* Debug */,
+				C3044AE319AD403B00265593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3044AE419AD403B00265593 /* Build configuration list for PBXNativeTarget "TLLayoutAdditionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3044AE519AD403B00265593 /* Debug */,
+				C3044AE619AD403B00265593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3044AB619AD403B00265593 /* Project object */;
+}
