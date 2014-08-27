@@ -13,7 +13,6 @@
 		696C1755E9369FEF3CF6BCF3 /* UIView+Resistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1869E02054B6D77E1350 /* UIView+Resistance.m */; };
 		696C175A3821EC6AC80BE026 /* UIView+Centering.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C14AAC2C5AD0FC5480D1F /* UIView+Centering.m */; };
 		696C17FBAE808E230EB3A525 /* UIView+Spacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C114ED7E38C0F30F13036 /* UIView+Spacing.m */; };
-		696C18505787EE9742679DC2 /* NSLayoutConstraint+RegularConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C102DACC01F190E6CC041 /* NSLayoutConstraint+RegularConvenience.m */; };
 		696C1C0F10F0FF8B132112A5 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C17BEEBD986D743845B62 /* UIView+Constraints.m */; };
 		696C1C1A10CAC280DC35F2BB /* UIView+Sizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1B7997C54C42C5557EE7 /* UIView+Sizing.m */; };
 		696C1F277BC6404C8A6230AD /* NSLayoutConstraint+VisualConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C14CD05F9113D18DBFB73 /* NSLayoutConstraint+VisualConvenience.m */; };
@@ -52,7 +51,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		696C102DACC01F190E6CC041 /* NSLayoutConstraint+RegularConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+RegularConvenience.m"; sourceTree = "<group>"; };
 		696C10BF4682E2D20CA8E3F4 /* UIView+Sizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizing.h"; sourceTree = "<group>"; };
 		696C114ED7E38C0F30F13036 /* UIView+Spacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Spacing.m"; sourceTree = "<group>"; };
 		696C118625FF1028FEF5B3D7 /* UIView+Resistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Resistance.h"; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		696C1CF80CCDE4AFEF4C10FC /* UIView+VisualConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VisualConstraints.m"; sourceTree = "<group>"; };
 		696C1D79658A71A9EC8AF416 /* UIView+VisualConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VisualConstraints.h"; sourceTree = "<group>"; };
 		696C1DC7FE4C1D9DAD148520 /* UIView+MyConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MyConstraints.h"; sourceTree = "<group>"; };
-		696C1EABB427FF3EE15D50BB /* NSLayoutConstraint+RegularConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+RegularConvenience.h"; sourceTree = "<group>"; };
 		C3044ABE19AD403B00265593 /* libTLLayoutAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTLLayoutAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3044AC119AD403B00265593 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3044AC519AD403B00265593 /* TLLayoutAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TLLayoutAdditions-Prefix.pch"; sourceTree = "<group>"; };
@@ -113,8 +110,6 @@
 			children = (
 				696C1869E02054B6D77E1350 /* UIView+Resistance.m */,
 				696C118625FF1028FEF5B3D7 /* UIView+Resistance.h */,
-				696C102DACC01F190E6CC041 /* NSLayoutConstraint+RegularConvenience.m */,
-				696C1EABB427FF3EE15D50BB /* NSLayoutConstraint+RegularConvenience.h */,
 				696C14CD05F9113D18DBFB73 /* NSLayoutConstraint+VisualConvenience.m */,
 				696C183924A8C3C1417143AF /* NSLayoutConstraint+VisualConvenience.h */,
 				696C1AD68488086E90D48EC3 /* UIView+MyConstraints.m */,
@@ -284,7 +279,6 @@
 			files = (
 				C3044AC919AD403B00265593 /* TLLayoutAdditions.m in Sources */,
 				696C1755E9369FEF3CF6BCF3 /* UIView+Resistance.m in Sources */,
-				696C18505787EE9742679DC2 /* NSLayoutConstraint+RegularConvenience.m in Sources */,
 				696C1F277BC6404C8A6230AD /* NSLayoutConstraint+VisualConvenience.m in Sources */,
 				696C11B6736AFD79B22F93A2 /* UIView+MyConstraints.m in Sources */,
 				696C15FC606A0DA72B5BD5D3 /* UIView+VisualConstraints.m in Sources */,

@@ -8,6 +8,9 @@
 
 @interface UIView (Edges)
 
+- (NSArray *)matchTopAndWidthWithView:(UIView *)view;
+- (NSArray *)matchBottomAndWidthWithView:(UIView *)view;
+
 - (NSLayoutConstraint *)matchLeftWithView:(UIView *)view indent:(CGFloat)indent;
 - (NSLayoutConstraint *)matchLeftWithView:(UIView *)view;
 - (NSLayoutConstraint *)matchLeftWithView:(UIView *)view1 toView:(UIView *)view2;

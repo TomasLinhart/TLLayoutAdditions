@@ -5,8 +5,19 @@
 
 #import "UIView+Edges.h"
 #import "UIView+Constraints.h"
+#import "UIView+Sizing.h"
 
 @implementation UIView (Edges)
+
+- (NSArray *)matchTopAndWidthWithView:(UIView *)view
+{
+    return [[self matchWidthWithView:view] arrayByAddingObject:[self matchTopWithView:view]];
+}
+
+- (NSArray *)matchBottomAndWidthWithView:(UIView *)view
+{
+    return [[self matchWidthWithView:view] arrayByAddingObjectsFromArray:[self matchBottomWithView:view]];
+}
 
 #pragma mark - Left
 
