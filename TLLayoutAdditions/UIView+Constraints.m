@@ -97,22 +97,12 @@
 
 - (NSLayoutConstraint *)addConstraintWithItem:(UIView *)view1 attribute:(NSLayoutAttribute)attr1 relatedBy:(NSLayoutRelation)relation multiplier:(CGFloat)multiplier constant:(CGFloat)c
 {
-    if (attr1 == NSLayoutAttributeWidth || attr1 == NSLayoutAttributeHeight) {
-        return [self addConstraintWithItem:view1
-                                 attribute:attr1
-                                 relatedBy:relation
-                                    toItem:nil
-                                 attribute:NSLayoutAttributeNotAnAttribute
-                                multiplier:multiplier
-                                  constant:c];
-    } else {
-        return [self addConstraintWithItem:view1
-                                 attribute:attr1
-                                 relatedBy:relation
-                                    toItem:self
-                                multiplier:multiplier
-                                  constant:c];
-    }
+    return [self addConstraintWithItem:view1
+                             attribute:attr1
+                             relatedBy:relation
+                                toItem:self
+                            multiplier:multiplier
+                              constant:c];
 }
 
 - (NSLayoutConstraint *)addConstraintWithItem:(UIView *)view1 attribute:(NSLayoutAttribute)attr1 relatedBy:(NSLayoutRelation)relation multiplier:(CGFloat)multiplier

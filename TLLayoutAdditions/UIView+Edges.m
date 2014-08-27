@@ -16,7 +16,7 @@
 
 - (NSArray *)matchBottomAndWidthWithView:(UIView *)view
 {
-    return [[self matchWidthWithView:view] arrayByAddingObjectsFromArray:[self matchBottomWithView:view]];
+    return [[self matchWidthWithView:view] arrayByAddingObject:[self matchBottomWithView:view]];
 }
 
 #pragma mark - Left

@@ -18,12 +18,12 @@
 
 - (NSLayoutConstraint *)matchHeightSizeWithView:(UIView *)view toSize:(CGFloat)size
 {
-    return [self addConstraintWithItem:view attribute:NSLayoutAttributeHeight constant:size];
+    return [self addConstraintWithItem:view attribute:NSLayoutAttributeHeight toItem:nil attribute:NSLayoutAttributeNotAnAttribute constant:size];
 }
 
 - (NSLayoutConstraint *)matchWidthSizeWithView:(UIView *)view toSize:(CGFloat)size
 {
-    return [self addConstraintWithItem:view attribute:NSLayoutAttributeWidth constant:size];
+    return [self addConstraintWithItem:view attribute:NSLayoutAttributeWidth toItem:nil attribute:NSLayoutAttributeNotAnAttribute constant:size];
 }
 
 - (NSArray *)matchSizeWithView:(UIView *)view1 toView:(UIView *)view2
