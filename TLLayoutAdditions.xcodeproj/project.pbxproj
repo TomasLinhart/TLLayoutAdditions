@@ -15,6 +15,7 @@
 		696C17FBAE808E230EB3A525 /* UIView+Spacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C114ED7E38C0F30F13036 /* UIView+Spacing.m */; };
 		696C1C0F10F0FF8B132112A5 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C17BEEBD986D743845B62 /* UIView+Constraints.m */; };
 		696C1C1A10CAC280DC35F2BB /* UIView+Sizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1B7997C54C42C5557EE7 /* UIView+Sizing.m */; };
+		696C1CBA88E74105B5049652 /* TLLinearLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C15C2DA46837CEE09EECF /* TLLinearLayoutView.m */; };
 		696C1F277BC6404C8A6230AD /* NSLayoutConstraint+VisualConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C14CD05F9113D18DBFB73 /* NSLayoutConstraint+VisualConvenience.m */; };
 		C3044AC219AD403B00265593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044AC119AD403B00265593 /* Foundation.framework */; };
 		C3044AC719AD403B00265593 /* TLLayoutAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3044AC619AD403B00265593 /* TLLayoutAdditions.h */; };
@@ -58,6 +59,7 @@
 		696C14AAC2C5AD0FC5480D1F /* UIView+Centering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Centering.m"; sourceTree = "<group>"; };
 		696C14CD05F9113D18DBFB73 /* NSLayoutConstraint+VisualConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+VisualConvenience.m"; sourceTree = "<group>"; };
 		696C150F44345F69093B0BAA /* UIView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraints.h"; sourceTree = "<group>"; };
+		696C15C2DA46837CEE09EECF /* TLLinearLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLLinearLayoutView.m; sourceTree = "<group>"; };
 		696C17AD3F3BED411810B7B1 /* UIView+Spacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Spacing.h"; sourceTree = "<group>"; };
 		696C17BEEBD986D743845B62 /* UIView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraints.m"; sourceTree = "<group>"; };
 		696C183924A8C3C1417143AF /* NSLayoutConstraint+VisualConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+VisualConvenience.h"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		696C1B7997C54C42C5557EE7 /* UIView+Sizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizing.m"; sourceTree = "<group>"; };
 		696C1C9EAE080BF9C31AF284 /* UIView+Edges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Edges.h"; sourceTree = "<group>"; };
 		696C1CF80CCDE4AFEF4C10FC /* UIView+VisualConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VisualConstraints.m"; sourceTree = "<group>"; };
+		696C1D1736C99C01B638AC83 /* TLLinearLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLLinearLayoutView.h; sourceTree = "<group>"; };
 		696C1D79658A71A9EC8AF416 /* UIView+VisualConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VisualConstraints.h"; sourceTree = "<group>"; };
 		696C1DC7FE4C1D9DAD148520 /* UIView+MyConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MyConstraints.h"; sourceTree = "<group>"; };
 		C3044ABE19AD403B00265593 /* libTLLayoutAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTLLayoutAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +129,8 @@
 				696C17AD3F3BED411810B7B1 /* UIView+Spacing.h */,
 				696C14A9933337BC1B2E5C3A /* UIView+Edges.m */,
 				696C1C9EAE080BF9C31AF284 /* UIView+Edges.h */,
+				696C15C2DA46837CEE09EECF /* TLLinearLayoutView.m */,
+				696C1D1736C99C01B638AC83 /* TLLinearLayoutView.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 				696C175A3821EC6AC80BE026 /* UIView+Centering.m in Sources */,
 				696C17FBAE808E230EB3A525 /* UIView+Spacing.m in Sources */,
 				696C15F9E0BB81B3BE44A02C /* UIView+Edges.m in Sources */,
+				696C1CBA88E74105B5049652 /* TLLinearLayoutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
