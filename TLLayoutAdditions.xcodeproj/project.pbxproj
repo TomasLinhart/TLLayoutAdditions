@@ -10,6 +10,7 @@
 		696C11B6736AFD79B22F93A2 /* UIView+MyConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1AD68488086E90D48EC3 /* UIView+MyConstraints.m */; };
 		696C15F9E0BB81B3BE44A02C /* UIView+Edges.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C14A9933337BC1B2E5C3A /* UIView+Edges.m */; };
 		696C15FC606A0DA72B5BD5D3 /* UIView+VisualConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1CF80CCDE4AFEF4C10FC /* UIView+VisualConstraints.m */; };
+		696C17506A9663E826C0900A /* NSLayoutConstraint+Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C105A4D2F0CFC61946951 /* NSLayoutConstraint+Name.m */; };
 		696C1755E9369FEF3CF6BCF3 /* UIView+Resistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1869E02054B6D77E1350 /* UIView+Resistance.m */; };
 		696C175A3821EC6AC80BE026 /* UIView+Centering.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C14AAC2C5AD0FC5480D1F /* UIView+Centering.m */; };
 		696C17FBAE808E230EB3A525 /* UIView+Spacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C114ED7E38C0F30F13036 /* UIView+Spacing.m */; };
@@ -26,6 +27,8 @@
 		C3044AD619AD403B00265593 /* libTLLayoutAdditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044ABE19AD403B00265593 /* libTLLayoutAdditions.a */; };
 		C3044ADC19AD403B00265593 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3044ADA19AD403B00265593 /* InfoPlist.strings */; };
 		C3044ADE19AD403B00265593 /* TLLayoutAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3044ADD19AD403B00265593 /* TLLayoutAdditionsTests.m */; };
+		C379490719C752A20085D889 /* UIView+ManagingConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = C379490319C752A20085D889 /* UIView+ManagingConstraints.m */; };
+		C379490819C752A20085D889 /* NSLayoutConstraint+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C379490519C752A20085D889 /* NSLayoutConstraint+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		696C105A4D2F0CFC61946951 /* NSLayoutConstraint+Name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Name.m"; sourceTree = "<group>"; };
 		696C10BF4682E2D20CA8E3F4 /* UIView+Sizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizing.h"; sourceTree = "<group>"; };
 		696C114ED7E38C0F30F13036 /* UIView+Spacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Spacing.m"; sourceTree = "<group>"; };
 		696C118625FF1028FEF5B3D7 /* UIView+Resistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Resistance.h"; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 		696C19BB47977C84464458AF /* UIView+Centering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Centering.h"; sourceTree = "<group>"; };
 		696C1AD68488086E90D48EC3 /* UIView+MyConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MyConstraints.m"; sourceTree = "<group>"; };
 		696C1B7997C54C42C5557EE7 /* UIView+Sizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizing.m"; sourceTree = "<group>"; };
+		696C1BB0DE2A5C475E706E63 /* NSLayoutConstraint+Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Name.h"; sourceTree = "<group>"; };
 		696C1C9EAE080BF9C31AF284 /* UIView+Edges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Edges.h"; sourceTree = "<group>"; };
 		696C1CF80CCDE4AFEF4C10FC /* UIView+VisualConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VisualConstraints.m"; sourceTree = "<group>"; };
 		696C1D1736C99C01B638AC83 /* TLLinearLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLLinearLayoutView.h; sourceTree = "<group>"; };
@@ -83,6 +88,10 @@
 		C3044AD919AD403B00265593 /* TLLayoutAdditionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TLLayoutAdditionsTests-Info.plist"; sourceTree = "<group>"; };
 		C3044ADB19AD403B00265593 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3044ADD19AD403B00265593 /* TLLayoutAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLLayoutAdditionsTests.m; sourceTree = "<group>"; };
+		C379490319C752A20085D889 /* UIView+ManagingConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ManagingConstraints.m"; sourceTree = "<group>"; };
+		C379490419C752A20085D889 /* NSLayoutConstraint+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Additions.h"; sourceTree = "<group>"; };
+		C379490519C752A20085D889 /* NSLayoutConstraint+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Additions.m"; sourceTree = "<group>"; };
+		C379490619C752A20085D889 /* UIView+ManagingConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ManagingConstraints.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +120,10 @@
 		696C16CAA9039CEF891EA4AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C379490319C752A20085D889 /* UIView+ManagingConstraints.m */,
+				C379490619C752A20085D889 /* UIView+ManagingConstraints.h */,
+				C379490419C752A20085D889 /* NSLayoutConstraint+Additions.h */,
+				C379490519C752A20085D889 /* NSLayoutConstraint+Additions.m */,
 				696C1869E02054B6D77E1350 /* UIView+Resistance.m */,
 				696C118625FF1028FEF5B3D7 /* UIView+Resistance.h */,
 				696C14CD05F9113D18DBFB73 /* NSLayoutConstraint+VisualConvenience.m */,
@@ -131,6 +144,8 @@
 				696C1C9EAE080BF9C31AF284 /* UIView+Edges.h */,
 				696C15C2DA46837CEE09EECF /* TLLinearLayoutView.m */,
 				696C1D1736C99C01B638AC83 /* TLLinearLayoutView.h */,
+				696C105A4D2F0CFC61946951 /* NSLayoutConstraint+Name.m */,
+				696C1BB0DE2A5C475E706E63 /* NSLayoutConstraint+Name.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -282,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C379490819C752A20085D889 /* NSLayoutConstraint+Additions.m in Sources */,
 				C3044AC919AD403B00265593 /* TLLayoutAdditions.m in Sources */,
 				696C1755E9369FEF3CF6BCF3 /* UIView+Resistance.m in Sources */,
 				696C1F277BC6404C8A6230AD /* NSLayoutConstraint+VisualConvenience.m in Sources */,
@@ -291,8 +307,10 @@
 				696C1C1A10CAC280DC35F2BB /* UIView+Sizing.m in Sources */,
 				696C175A3821EC6AC80BE026 /* UIView+Centering.m in Sources */,
 				696C17FBAE808E230EB3A525 /* UIView+Spacing.m in Sources */,
+				C379490719C752A20085D889 /* UIView+ManagingConstraints.m in Sources */,
 				696C15F9E0BB81B3BE44A02C /* UIView+Edges.m in Sources */,
 				696C1CBA88E74105B5049652 /* TLLinearLayoutView.m in Sources */,
+				696C17506A9663E826C0900A /* NSLayoutConstraint+Name.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +491,7 @@
 				C3044AE319AD403B00265593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3044AE419AD403B00265593 /* Build configuration list for PBXNativeTarget "TLLayoutAdditionsTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +500,7 @@
 				C3044AE619AD403B00265593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

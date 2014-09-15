@@ -4,10 +4,13 @@
 //
 
 #import "TLLinearLayoutView.h"
-#import "UIView+MyConstraints.h"
 #import "UIView+Edges.h"
 #import "UIView+Sizing.h"
 #import "UIView+Spacing.h"
+#import "UIView+ManagingConstraints.h"
+#import "NSLayoutConstraint+Name.h"
+
+static NSString *const TLLinearLayoutViewConstraint = @"TLLinearLayoutViewConstraint";
 
 @implementation TLLinearLayoutView
 
@@ -44,37 +47,58 @@
     }
 
     // Just delete all constraints because it is not know how hierarchy was changed.
-    [self removeMyConstraints];
+    [self removeConstraintsNamed:TLLinearLayoutViewConstraint];
 
+    NSMutableArray *constraints = [NSMutableArray array];
     UIView *previousView = self.subviews[0];
     if (self.orientation == TLLinearLayoutViewOrientationHorizontal) {
-        [self matchLeftWithView:previousView];
-        [self matchHeightWithView:previousView];
+        [constraints addObject:[self matchLeftWithView:previousView]];
+        [constraints addObjectsFromArray:[self matchHeightWithView:previousView]];
         for (NSUInteger i = 1; i < self.subviews.count; i++) {
             UIView *view = self.subviews[i];
-            [self addHorizontalSpacingBetweenView:previousView view:view];
-            [self matchHeightWithView:view];
+            [constraints addObject:[self addHorizontalSpacingBetweenView:previousView view:view]];
+            [constraints addObjectsFromArray:[self matchHeightWithView:view]];
 
             previousView = view;
         }
 
-        [self matchRightWithView:previousView];
+        [constraints addObject:[self matchRightWithView:previousView]];
     } else {
-        [self matchTopWithView:previousView];
-        [self matchWidthWithView:previousView];
+        [constraints addObject:[self matchTopWithView:previousView]];
+        [constraints addObjectsFromArray:[self matchWidthWithView:previousView]];
         for (NSUInteger i = 1; i < self.subviews.count; i++) {
             UIView *view = self.subviews[i];
-            [self addVerticalSpacingBetweenView:previousView view:view];
-            [self matchWidthWithView:view];
+            [constraints addObject:[self addVerticalSpacingBetweenView:previousView view:view]];
+            [constraints addObjectsFromArray:[self matchWidthWithView:view]];
 
             previousView = view;
         }
 
-        [self matchBottomWithView:previousView];
+        [constraints addObject:[self matchBottomWithView:previousView]];
+    }
+
+    for (NSLayoutConstraint *constraint in constraints) {
+        constraint.name = TLLinearLayoutViewConstraint;
     }
 
     [super updateConstraints];
 }
+
+- (CGSize)intrinsicContentSize
+{
+    // If we have no views then parent would have to give us size.
+    // So in that case we have zero size.
+    if (self.orientation == TLLinearLayoutViewOrientationVertical &&
+            self.subviews.count == 0) {
+        return CGSizeMake(UIViewNoIntrinsicMetric, 0);
+    } else if (self.orientation == TLLinearLayoutViewOrientationHorizontal &&
+            self.subviews.count == 0) {
+        return CGSizeMake(0, UIViewNoIntrinsicMetric);
+    } else {
+        return CGSizeMake(UIViewNoIntrinsicMetric, UIViewNoIntrinsicMetric);
+    }
+}
+
 
 - (void)addSubview:(UIView *)view
 {
@@ -90,7 +114,7 @@
 {
     _orientation = orientation;
 
-    [self needsUpdateConstraints];
+    [self setNeedsUpdateConstraints];
 }
 
 @end
