@@ -21,7 +21,7 @@
 		C3044B6F19AD40DE00265593 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044B5719AD40DE00265593 /* UIKit.framework */; };
 		C3044B7719AD40DE00265593 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3044B7519AD40DE00265593 /* InfoPlist.strings */; };
 		C3044B7919AD40DE00265593 /* TLLayoutAdditionsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3044B7819AD40DE00265593 /* TLLayoutAdditionsDemoTests.m */; };
-		C3A4D1C919AE04810073CA8A /* libTLLayoutAdditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044BA319AD412D00265593 /* libTLLayoutAdditions.a */; };
+		C379492819C7570D0085D889 /* libTLLayoutAdditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C379492319C756E50085D889 /* libTLLayoutAdditions.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,23 +32,23 @@
 			remoteGlobalIDString = C3044B4F19AD40DE00265593;
 			remoteInfo = TLLayoutAdditionsDemo;
 		};
-		C3044BA219AD412D00265593 /* PBXContainerItemProxy */ = {
+		C379492219C756E50085D889 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C3044B9D19AD412D00265593 /* TLLayoutAdditions.xcodeproj */;
+			containerPortal = C379491D19C756E50085D889 /* TLLayoutAdditions.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C3044ABE19AD403B00265593;
 			remoteInfo = TLLayoutAdditions;
 		};
-		C3044BA419AD412D00265593 /* PBXContainerItemProxy */ = {
+		C379492419C756E50085D889 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C3044B9D19AD412D00265593 /* TLLayoutAdditions.xcodeproj */;
+			containerPortal = C379491D19C756E50085D889 /* TLLayoutAdditions.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C3044ACE19AD403B00265593;
 			remoteInfo = TLLayoutAdditionsTests;
 		};
-		C3A4D1C719AE045C0073CA8A /* PBXContainerItemProxy */ = {
+		C379492619C757090085D889 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C3044B9D19AD412D00265593 /* TLLayoutAdditions.xcodeproj */;
+			containerPortal = C379491D19C756E50085D889 /* TLLayoutAdditions.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = C3044ABD19AD403B00265593;
 			remoteInfo = TLLayoutAdditions;
@@ -76,7 +76,7 @@
 		C3044B7419AD40DE00265593 /* TLLayoutAdditionsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TLLayoutAdditionsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C3044B7619AD40DE00265593 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3044B7819AD40DE00265593 /* TLLayoutAdditionsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLLayoutAdditionsDemoTests.m; sourceTree = "<group>"; };
-		C3044B9D19AD412D00265593 /* TLLayoutAdditions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TLLayoutAdditions.xcodeproj; path = ../TLLayoutAdditions.xcodeproj; sourceTree = "<group>"; };
+		C379491D19C756E50085D889 /* TLLayoutAdditions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TLLayoutAdditions.xcodeproj; path = ../TLLayoutAdditions.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A4D1C919AE04810073CA8A /* libTLLayoutAdditions.a in Frameworks */,
+				C379492819C7570D0085D889 /* libTLLayoutAdditions.a in Frameworks */,
 				C3044B5619AD40DE00265593 /* CoreGraphics.framework in Frameworks */,
 				C3044B5819AD40DE00265593 /* UIKit.framework in Frameworks */,
 				C3044B5419AD40DE00265593 /* Foundation.framework in Frameworks */,
@@ -179,21 +179,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C3044B9E19AD412D00265593 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C3044BA319AD412D00265593 /* libTLLayoutAdditions.a */,
-				C3044BA519AD412D00265593 /* TLLayoutAdditionsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C3044BA619AD414100265593 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				C3044B9D19AD412D00265593 /* TLLayoutAdditions.xcodeproj */,
+				C379491D19C756E50085D889 /* TLLayoutAdditions.xcodeproj */,
 			);
 			name = Libraries;
+			sourceTree = "<group>";
+		};
+		C379491E19C756E50085D889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C379492319C756E50085D889 /* libTLLayoutAdditions.a */,
+				C379492519C756E50085D889 /* TLLayoutAdditionsTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +210,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C3A4D1C819AE045C0073CA8A /* PBXTargetDependency */,
+				C379492719C757090085D889 /* PBXTargetDependency */,
 			);
 			name = TLLayoutAdditionsDemo;
 			productName = TLLayoutAdditionsDemo;
@@ -262,8 +262,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = C3044B9E19AD412D00265593 /* Products */;
-					ProjectRef = C3044B9D19AD412D00265593 /* TLLayoutAdditions.xcodeproj */;
+					ProductGroup = C379491E19C756E50085D889 /* Products */;
+					ProjectRef = C379491D19C756E50085D889 /* TLLayoutAdditions.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -275,18 +275,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		C3044BA319AD412D00265593 /* libTLLayoutAdditions.a */ = {
+		C379492319C756E50085D889 /* libTLLayoutAdditions.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTLLayoutAdditions.a;
-			remoteRef = C3044BA219AD412D00265593 /* PBXContainerItemProxy */;
+			remoteRef = C379492219C756E50085D889 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C3044BA519AD412D00265593 /* TLLayoutAdditionsTests.xctest */ = {
+		C379492519C756E50085D889 /* TLLayoutAdditionsTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = TLLayoutAdditionsTests.xctest;
-			remoteRef = C3044BA419AD412D00265593 /* PBXContainerItemProxy */;
+			remoteRef = C379492419C756E50085D889 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -339,10 +339,10 @@
 			target = C3044B4F19AD40DE00265593 /* TLLayoutAdditionsDemo */;
 			targetProxy = C3044B7019AD40DE00265593 /* PBXContainerItemProxy */;
 		};
-		C3A4D1C819AE045C0073CA8A /* PBXTargetDependency */ = {
+		C379492719C757090085D889 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TLLayoutAdditions;
-			targetProxy = C3A4D1C719AE045C0073CA8A /* PBXContainerItemProxy */;
+			targetProxy = C379492619C757090085D889 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
