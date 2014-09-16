@@ -17,6 +17,7 @@
 		696C1C0F10F0FF8B132112A5 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C17BEEBD986D743845B62 /* UIView+Constraints.m */; };
 		696C1C1A10CAC280DC35F2BB /* UIView+Sizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C1B7997C54C42C5557EE7 /* UIView+Sizing.m */; };
 		696C1CBA88E74105B5049652 /* TLLinearLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C15C2DA46837CEE09EECF /* TLLinearLayoutView.m */; };
+		696C1F08D2F5D931F74712DE /* TLLayoutAdditions+ConstraintsConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C197B5F8931D6CF8C9195 /* TLLayoutAdditions+ConstraintsConvenience.m */; };
 		696C1F277BC6404C8A6230AD /* NSLayoutConstraint+VisualConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 696C14CD05F9113D18DBFB73 /* NSLayoutConstraint+VisualConvenience.m */; };
 		C3044AC219AD403B00265593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044AC119AD403B00265593 /* Foundation.framework */; };
 		C3044AC719AD403B00265593 /* TLLayoutAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3044AC619AD403B00265593 /* TLLayoutAdditions.h */; };
@@ -64,10 +65,12 @@
 		696C14CD05F9113D18DBFB73 /* NSLayoutConstraint+VisualConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+VisualConvenience.m"; sourceTree = "<group>"; };
 		696C150F44345F69093B0BAA /* UIView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraints.h"; sourceTree = "<group>"; };
 		696C15C2DA46837CEE09EECF /* TLLinearLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLLinearLayoutView.m; sourceTree = "<group>"; };
+		696C169E5299535C9B708DC0 /* TLLayoutAdditions+ConstraintsConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TLLayoutAdditions+ConstraintsConvenience.h"; sourceTree = "<group>"; };
 		696C17AD3F3BED411810B7B1 /* UIView+Spacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Spacing.h"; sourceTree = "<group>"; };
 		696C17BEEBD986D743845B62 /* UIView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraints.m"; sourceTree = "<group>"; };
 		696C183924A8C3C1417143AF /* NSLayoutConstraint+VisualConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+VisualConvenience.h"; sourceTree = "<group>"; };
 		696C1869E02054B6D77E1350 /* UIView+Resistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Resistance.m"; sourceTree = "<group>"; };
+		696C197B5F8931D6CF8C9195 /* TLLayoutAdditions+ConstraintsConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TLLayoutAdditions+ConstraintsConvenience.m"; sourceTree = "<group>"; };
 		696C19BB47977C84464458AF /* UIView+Centering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Centering.h"; sourceTree = "<group>"; };
 		696C1AD68488086E90D48EC3 /* UIView+MyConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MyConstraints.m"; sourceTree = "<group>"; };
 		696C1B7997C54C42C5557EE7 /* UIView+Sizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizing.m"; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				696C1D1736C99C01B638AC83 /* TLLinearLayoutView.h */,
 				696C105A4D2F0CFC61946951 /* NSLayoutConstraint+Name.m */,
 				696C1BB0DE2A5C475E706E63 /* NSLayoutConstraint+Name.h */,
+				696C197B5F8931D6CF8C9195 /* TLLayoutAdditions+ConstraintsConvenience.m */,
+				696C169E5299535C9B708DC0 /* TLLayoutAdditions+ConstraintsConvenience.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 				696C15F9E0BB81B3BE44A02C /* UIView+Edges.m in Sources */,
 				696C1CBA88E74105B5049652 /* TLLinearLayoutView.m in Sources */,
 				696C17506A9663E826C0900A /* NSLayoutConstraint+Name.m in Sources */,
+				696C1F08D2F5D931F74712DE /* TLLayoutAdditions+ConstraintsConvenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
