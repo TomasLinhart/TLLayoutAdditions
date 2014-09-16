@@ -6,6 +6,7 @@
 #import "UIView+Edges.h"
 #import "UIView+Constraints.h"
 #import "UIView+Sizing.h"
+#import "TLLayoutAdditions+ConstraintsConvenience.h"
 
 @implementation UIView (Edges)
 
@@ -24,6 +25,14 @@
 - (NSLayoutConstraint *)matchLeftWithView:(UIView *)view indent:(CGFloat)indent
 {
     return [self addConstraintWithItem:view attribute:NSLayoutAttributeLeft constant:indent];
+}
+
+- (NSLayoutConstraint *)matchLeftWithView:(UIView *)view indent:(CGFloat)indent priority:(UILayoutPriority)priority
+{
+    NSLayoutConstraint *constraint = [TLLayoutAdditions constraintWithItem:view attribute:NSLayoutAttributeLeft toItem:self constant:indent];
+    constraint.priority = priority;
+    [self addConstraint:constraint];
+    return constraint;
 }
 
 - (NSLayoutConstraint *)matchLeftWithView:(UIView *)view
@@ -46,6 +55,14 @@
 - (NSLayoutConstraint *)matchRightWithView:(UIView *)view indent:(CGFloat)indent
 {
     return [self addConstraintWithItem:view attribute:NSLayoutAttributeRight constant:-indent];
+}
+
+- (NSLayoutConstraint *)matchRightWithView:(UIView *)view indent:(CGFloat)indent priority:(UILayoutPriority)priority
+{
+    NSLayoutConstraint *constraint = [TLLayoutAdditions constraintWithItem:view attribute:NSLayoutAttributeRight toItem:self constant:-indent];
+    constraint.priority = priority;
+    [self addConstraint:constraint];
+    return constraint;
 }
 
 - (NSLayoutConstraint *)matchRightWithView:(UIView *)view

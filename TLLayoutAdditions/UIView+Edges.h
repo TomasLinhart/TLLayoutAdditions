@@ -12,11 +12,13 @@
 - (NSArray *)matchBottomAndWidthWithView:(UIView *)view;
 
 - (NSLayoutConstraint *)matchLeftWithView:(UIView *)view indent:(CGFloat)indent;
+- (NSLayoutConstraint *)matchLeftWithView:(UIView *)view indent:(CGFloat)indent priority:(UILayoutPriority)priority;
 - (NSLayoutConstraint *)matchLeftWithView:(UIView *)view;
 - (NSLayoutConstraint *)matchLeftWithView:(UIView *)view1 toView:(UIView *)view2;
 - (NSLayoutConstraint *)matchLeftWithView:(UIView *)view1 toView:(UIView *)view2 indent:(CGFloat)indent;
 
 - (NSLayoutConstraint *)matchRightWithView:(UIView *)view indent:(CGFloat)indent;
+- (NSLayoutConstraint *)matchRightWithView:(UIView *)view indent:(CGFloat)indent priority:(UILayoutPriority)priority;
 - (NSLayoutConstraint *)matchRightWithView:(UIView *)view;
 - (NSLayoutConstraint *)matchRightWithView:(UIView *)view1 toView:(UIView *)view2;
 - (NSLayoutConstraint *)matchRightWithView:(UIView *)view1 toView:(UIView *)view2 indent:(CGFloat)indent;
