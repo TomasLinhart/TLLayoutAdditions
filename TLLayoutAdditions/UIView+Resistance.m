@@ -9,6 +9,16 @@
 
 #pragma mark - Vertical
 
+- (UILayoutPriority)horizontalContentHuggingPriority
+{
+    return [self contentHuggingPriorityForAxis:UILayoutConstraintAxisHorizontal];
+}
+
+- (UILayoutPriority)verticalContentHuggingPriority
+{
+    return [self contentHuggingPriorityForAxis:UILayoutConstraintAxisVertical];
+}
+
 - (void)setHorizontalContentHuggingPriority:(UILayoutPriority)priority
 {
     [self setContentHuggingPriority:priority forAxis:UILayoutConstraintAxisHorizontal];
@@ -20,6 +30,16 @@
 }
 
 #pragma mark - Horizontal
+
+- (UILayoutPriority)horizontalContentCompressionResistancePriority
+{
+    return [self contentCompressionResistancePriorityForAxis:UILayoutConstraintAxisHorizontal];
+}
+
+- (UILayoutPriority)verticalContentCompressionResistancePriority
+{
+    return [self contentCompressionResistancePriorityForAxis:UILayoutConstraintAxisVertical];
+}
 
 - (void)setHorizontalContentCompressionResistancePriority:(UILayoutPriority)priority
 {

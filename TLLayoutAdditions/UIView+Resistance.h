@@ -8,10 +8,10 @@
 
 @interface UIView (Resistance)
 
-- (void)setHorizontalContentHuggingPriority:(UILayoutPriority)priority;
-- (void)setVerticalContentHuggingPriority:(UILayoutPriority)priority;
+@property (nonatomic, assign) UILayoutPriority horizontalContentHuggingPriority;
+@property (nonatomic, assign) UILayoutPriority verticalContentHuggingPriority;
 
-- (void)setHorizontalContentCompressionResistancePriority:(UILayoutPriority)priority;
-- (void)setVerticalContentCompressionResistancePriority:(UILayoutPriority)priority;
+@property (nonatomic, assign) UILayoutPriority horizontalContentCompressionResistancePriority;
+@property (nonatomic, assign) UILayoutPriority verticalContentCompressionResistancePriority;
 
 @end
