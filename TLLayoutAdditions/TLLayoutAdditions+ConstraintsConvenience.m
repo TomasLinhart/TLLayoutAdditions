@@ -57,6 +57,41 @@
     return [TLLayoutAdditions constraintWithItem:view1 attribute:attr1 relatedBy:relation multiplier:1.0 constant:c];
 }
 
++ (NSLayoutConstraint *)constraintWithItem:(UIView *)view1 attribute:(NSLayoutAttribute)attr1 toItem:(UIView *)view2 attribute:(NSLayoutAttribute)attr2 multiplier:(CGFloat)multiplier
+{
+    return [NSLayoutConstraint constraintWithItem:view1 attribute:attr1 relatedBy:NSLayoutRelationEqual toItem:view2 attribute:attr2 multiplier:multiplier constant:0];
+}
+
++ (NSLayoutConstraint *)constraintWithItem:(UIView *)view1 attribute:(NSLayoutAttribute)attr1 toItem:(UIView *)view2 attribute:(NSLayoutAttribute)attr2 constant:(CGFloat)c
+{
+    return [NSLayoutConstraint constraintWithItem:view1 attribute:attr1 relatedBy:NSLayoutRelationEqual toItem:view2 attribute:attr2 multiplier:1.0 constant:c];
+}
+
++ (NSLayoutConstraint *)constraintWithItem:(UIView *)view1 attribute:(NSLayoutAttribute)attr1 toItem:(UIView *)view2 attribute:(NSLayoutAttribute)attr2
+{
+    return [NSLayoutConstraint constraintWithItem:view1 attribute:attr1 relatedBy:NSLayoutRelationEqual toItem:view2 attribute:attr2 multiplier:1.0 constant:0];
+}
+
++ (NSLayoutConstraint *)constraintWithItem:(UIView *)view1 attribute:(NSLayoutAttribute)attr1 toItem:(UIView *)view2 multiplier:(CGFloat)multiplier constant:(CGFloat)c
+{
+    return [TLLayoutAdditions constraintWithItem:view1 attribute:attr1 relatedBy:NSLayoutRelationEqual toItem:view2 multiplier:multiplier constant:c];
+}
+
++ (NSLayoutConstraint *)constraintWithItem:(UIView *)view1 attribute:(NSLayoutAttribute)attr1 toItem:(UIView *)view2 multiplier:(CGFloat)multiplier
+{
+    return [TLLayoutAdditions constraintWithItem:view1 attribute:attr1 relatedBy:NSLayoutRelationEqual toItem:view2 multiplier:multiplier constant:0];
+}
+
++ (NSLayoutConstraint *)constraintWithItem:(UIView *)view1 attribute:(NSLayoutAttribute)attr1 toItem:(UIView *)view2 constant:(CGFloat)c
+{
+    return [TLLayoutAdditions constraintWithItem:view1 attribute:attr1 relatedBy:NSLayoutRelationEqual toItem:view2 multiplier:1.0 constant:c];
+}
+
++ (NSLayoutConstraint *)constraintWithItem:(UIView *)view1 attribute:(NSLayoutAttribute)attr1 toItem:(UIView *)view2
+{
+    return [TLLayoutAdditions constraintWithItem:view1 attribute:attr1 relatedBy:NSLayoutRelationEqual toItem:view2 multiplier:1.0 constant:0];
+}
+
 + (NSLayoutConstraint *)constraintWithItem:(UIView *)view1 attribute:(NSLayoutAttribute)attr1 multiplier:(CGFloat)multiplier constant:(CGFloat)c
 {
     return [TLLayoutAdditions constraintWithItem:view1 attribute:attr1 relatedBy:NSLayoutRelationEqual multiplier:multiplier constant:c];
