@@ -10,9 +10,13 @@
 
 - (NSArray *)centerInMiddleView:(UIView *)view;
 
+- (NSLayoutConstraint *)centerHorizontallyView:(UIView *)view1 toView:(UIView *)view2 indent:(CGFloat)indent;
+- (NSLayoutConstraint *)centerHorizontallyView:(UIView *)view1 toView:(UIView *)view2;
 - (NSLayoutConstraint *)centerHorizontallyView:(UIView *)view indent:(CGFloat)indent;
 - (NSLayoutConstraint *)centerHorizontallyView:(UIView *)view;
 
+- (NSLayoutConstraint *)centerVerticallyView:(UIView *)view1 toView:(UIView *)view2 indent:(CGFloat)indent;
+- (NSLayoutConstraint *)centerVerticallyView:(UIView *)view1 toView:(UIView *)view2;
 - (NSLayoutConstraint *)centerVerticallyView:(UIView *)view indent:(CGFloat)indent;
 - (NSLayoutConstraint *)centerVerticallyView:(UIView *)view;
 
