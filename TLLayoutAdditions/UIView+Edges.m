@@ -87,6 +87,14 @@
     return [self addConstraintWithItem:view attribute:NSLayoutAttributeTop constant:indent];
 }
 
+- (NSLayoutConstraint *)matchTopWithView:(UIView *)view indent:(CGFloat)indent priority:(UILayoutPriority)priority
+{
+    NSLayoutConstraint *constraint = [TLLayoutAdditions constraintWithItem:view attribute:NSLayoutAttributeTop toItem:self constant:indent];
+    constraint.priority = priority;
+    [self addConstraint:constraint];
+    return constraint;
+}
+
 - (NSLayoutConstraint *)matchTopWithView:(UIView *)view
 {
     return [self matchTopWithView:view indent:0];
@@ -107,6 +115,14 @@
 - (NSLayoutConstraint *)matchBottomWithView:(UIView *)view indent:(CGFloat)indent
 {
     return [self addConstraintWithItem:view attribute:NSLayoutAttributeBottom constant:-indent];
+}
+
+- (NSLayoutConstraint *)matchBottomWithView:(UIView *)view indent:(CGFloat)indent priority:(UILayoutPriority)priority
+{
+    NSLayoutConstraint *constraint = [TLLayoutAdditions constraintWithItem:view attribute:NSLayoutAttributeBottom toItem:self constant:-indent];
+    constraint.priority = priority;
+    [self addConstraint:constraint];
+    return constraint;
 }
 
 - (NSLayoutConstraint *)matchBottomWithView:(UIView *)view
